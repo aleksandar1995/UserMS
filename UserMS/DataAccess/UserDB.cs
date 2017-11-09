@@ -12,8 +12,7 @@ namespace UserMS.DataAccess
         public static List<User> usersInMemory = new List<User>();
 
 
-        public static List<User> GetUsers(string userTypes, string userName, ActiveStateEnum active, int? pageNumber, int? pageSize, 
-                                          UserOrderEnum order, OrderDirectionEnum orderDirection)
+        public static List<User> GetUsers
         {
             return usersInMemory;
         }
